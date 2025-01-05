@@ -19,3 +19,16 @@ services:
       - compile
     volumes:
       - ./bin:/app/out   # Папка для доступа к скомпилированным файлам
+
+  generate-docs:
+    image: bellsoft/liberica-openjdk-alpine:11.0.16.1-1
+    command: >
+      javadoc 
+      -d /app/docs 
+      -sourcepath /app/src 
+      /app/src/ru/gb/alex/Main.java
+      /app/src/ru/gb/alex/Decorator.java
+      /app/src/ru/gb/alex/OtherClass.java
+    volumes:
+      - ./src:/app/src   # Папка с исходным кодом проекта
+      - ./docs:/app/docs # Папка для вывода документации

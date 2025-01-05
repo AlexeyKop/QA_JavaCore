@@ -15,3 +15,5 @@ J
 mydocumentation/index.html,0\c\0ca162ae362755ac1d845e3fafb385b5f3e03d40
 W
 'Sem1_CodeCompilation/docker-compose.yml,9\b\9b252b7a1aec3b0ea434b4ee7edbb5ee8bee5fbf
+T
+$Sem1_CodeCompilation/docs/index.html,1\f\1fd7f40de7aebc6279302244f723495e234d2fe6
