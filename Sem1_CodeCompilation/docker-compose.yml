@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  compile:
+    image: bellsoft/liberica-openjdk-alpine:11.0.16.1-1
+    command: >
+      javac 
+      -sourcepath /app/src 
+      -d /app/out 
+      /app/src/ru/gb/alex/Main.java
+    volumes:
+      - ./src:/app/src   # Папка с исходным кодом проекта
+      - ./bin:/app/out   # Папка для скомпилированных файлов
+
+  run:
+    image: bellsoft/liberica-openjdk-alpine:11.0.16.1-1
+    command: java -classpath /app/out ru.gb.alex.Main
+    depends_on:
+      - compile
+    volumes:
+      - ./bin:/app/out   # Папка для доступа к скомпилированным файлам
