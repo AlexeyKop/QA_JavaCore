@@ -17,3 +17,11 @@ W
 'Sem1_CodeCompilation/docker-compose.yml,9\b\9b252b7a1aec3b0ea434b4ee7edbb5ee8bee5fbf
 T
 $Sem1_CodeCompilation/docs/index.html,1\f\1fd7f40de7aebc6279302244f723495e234d2fe6
+S
+#Sem2_DataAndFunctions/src/Main.java,2\1\216b9179ead1faf0a4d35a404b44a46282073ccd
+Y
+)Sem2_DataAndFunctions/src/ArrayUtils.java,2\7\27cf8be4c1f2bd2197e56cb0a53d8310736bf898
+^
+.Sem2_DataAndFunctions/src/ArrayDifference.java,f\1\f1872809634a2ad1d1810a400ad57fa7643a3d4a
+]
+-Sem2_DataAndFunctions/src/ArrayZeroPoint.java,6\b\6b5aff2cc3211293aca8ac2b73a960ad35e30beb
